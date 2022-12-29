@@ -1,0 +1,10 @@
+cd resources
+cd css
+nano style.css
+cd ../..
+git init
+git add index.html style.css
+git resources/css/style.css
+git commit -m  index.html ,style.css
+git push http://<username>.github.io/<repository-name> 
+
